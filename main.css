@@ -1,3 +1,83 @@
 body {
-    background-color: blanchedalmond;
+    background-color: lightgreen;
+}
+
+button {
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+/* #petButtons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.petButt {
+    background-color: blue;
+} */
+
+#petCard {
+  padding: 5px;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card {
+  padding: 0px;
+  width: 400px;
+  height: 300px;
+  margin: 3px;
+  border: solid 3px black;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card footer {
+    height: 50px;
+    margin-bottom: 0px;
+    background-color: lightgray;
+}
+
+.petPic {
+    width: 100px;
+    height: 100px;
+}
+
+.nameHeader {
+    background-color: lightslategray;
+}
+
+#dog {
+    background-color: lightblue;
+}
+
+#cat {
+    background-color: lightgreen;
+}
+
+#dino {
+    background-color: lightsalmon;
 }
