@@ -70,14 +70,14 @@ button {
     background-color: lightslategray;
 }
 
-#dog {
+.dog {
     background-color: lightblue;
 }
 
-#cat {
+.cat {
     background-color: lightgreen;
 }
 
-#dino {
+.dino {
     background-color: lightsalmon;
 }
