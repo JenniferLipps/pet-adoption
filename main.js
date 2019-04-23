@@ -224,7 +224,7 @@ const petBuilder = (allPets) => {
     domString += `<img src=${pet.imageUrl} class="petPic" alt="Image of ${pet.name}.">`
     domString += `<p>${pet.color}</p>`
     domString += `<p>${pet.specialSkill}</p>`
-    domString += `<footer>${pet.type}</footer>`
+    domString += `<p class=${pet.type}>${pet.type}</p>`
     domString += '</div>';
   })
   printToDom('petCard', domString)

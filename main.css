@@ -1,5 +1,6 @@
 body {
     background-color: lightgreen;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 button {
@@ -7,36 +8,20 @@ button {
     font-size: 16px;
 }
 
-/* #petButtons {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+.title {
+    text-align: center;
+    text-emphasis: bold;
 }
-
-.petButt {
-    background-color: blue;
-} */
 
 #petCard {
   padding: 5px;
   margin: 0;
   list-style: none;
-  
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
@@ -70,14 +55,14 @@ button {
     background-color: lightslategray;
 }
 
-#dog {
+.dog {
     background-color: lightblue;
 }
 
-#cat {
+.cat {
     background-color: lightgreen;
 }
 
-#dino {
+.dino {
     background-color: lightsalmon;
 }
